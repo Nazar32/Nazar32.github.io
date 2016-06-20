@@ -1,0 +1,44 @@
+body {
+  color: #222;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #5bbea2;
+}
+
+p {
+  color: #888;
+}
+
+.color_element {
+  color: #5bbea2;
+}
+
+.color_bg {
+  background-color: #5bbea2;
+}
+
+.color_border {
+  border-color: #5bbea2;
+}
+
+img {
+  height: 75px;
+  width: 304px;
+  z-index: 100;
+  position: relative;
+}
+
+.toggle_menu {
+  background-color: #222;
+}
+
+.top_menu a:hover {
+  color: #5bbea2;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top_menu a {
+  letter-spacing: 3px;
+}
