@@ -1,6 +1,7 @@
 @import "../bourbon/bourbon"
 
 $color: #5bbea2 //Theme skin
+$dark_color: #215043
 $text_color: #888
 $main_color: #222
 $bg_light: #FAFAFA
@@ -15,9 +16,15 @@ body
 a
 	color: $color
 
-p
-	color: $text_color
+p,
+body,
+.main_footer,
+.s_about li
+	color: $main_color
 
+.main_footer
+	+kerning(0)
+	
 .color_element
 	color: $color
 .color_bg
@@ -25,17 +32,17 @@ p
 .color_border
 	border-color: $color
 
-.main_color_bg
-	 
+.bg_light
+	background-color: $bg_light
 
-img 
-	height: 75px
-	width: 304px
-	z-index: 100
-	position: relative
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	.s_descr::after
+		background-color: #fff
 
 .toggle_menu
-	background-color: $main_color
+	background-color: $dark_color
 
 .top_menu
 	a:hover
@@ -43,3 +50,64 @@ img
 		background-color: rgba(255,255,255,.1)
 	a
 		+kerning(3)
+
+.top_text
+	p
+		color: $bg_light
+		+kerning(5)
+
+.personal_header
+	+kerning(2)
+
+.s_descr
+	+kerning(5)
+	&:after
+		background-color: $main_color
+
+section
+	h3
+		+kerning(3)
+		color: $text_color
+
+.s_about
+	p:nth-child(even)
+		color: $color 
+
+.resume_container 
+	h3
+		color: $main_color
+		+kerning(1)
+		font-size: 15px
+		font-weight: 400
+	.left .resume_description  strong
+		margin-left: 10px
+
+	.right .resume_description  strong
+		margin-right: 10px
+
+.resume_item
+	.year
+		background-color: $color
+	.resume_description
+		+kerning(1)
+	margin-bottom: 30px
+	span
+		color: $color
+		font-weight: bold
+
+
+.s_portfolio
+	li 
+		+kerning(2)
+		color: $text_color
+	li.active
+	 	color: #fff
+	 	border-bottom: 1px solid $color
+
+.port_item_cont .portfolio_item
+	a
+		background-color: transparent
+		border: 1px solid $color
+		color: $bg_light
+	.port_item_descr
+		color: $color
