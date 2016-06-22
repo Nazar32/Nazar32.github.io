@@ -7,17 +7,44 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.personal_last_block {
+		margin-top: 35px;
+	}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.resume_container .left, 
+	.resume_container .left h3,
+	.resume_container .resume_icon {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.top_wrapper .top_text h1 {
+		font-size: 2em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.main_footer {
+		text-align: left;
+	}
 
+	.main_footer .social_wrap {
+		float: left;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.main_footer .social_wrap ul {
+		padding-left: 0;
+	}
 }
 
 /* Custom, iPhone Retina */
