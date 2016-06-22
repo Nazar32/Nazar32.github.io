@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Заголовок</title>
+	<title>Melnyk Nazar</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="favicon.png" />
@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/skins/tomato.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
@@ -22,11 +24,11 @@
 		<div class="loader_inner"></div>
 	</div>
 	
-	<header class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/bg1.jpg" data-z-index="1">
+	<header id="main" class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/bg1.jpg" data-z-index="1">
 		<div class="container">
 			<div class="row">
 				<div class="logo_container">
-					<img src="img/logo.png">
+					<img src="img/logo.png" alt="Logotype" />
 				</div>
 				<button class="toggle_menu">
 					<span class="sandwich">
@@ -37,16 +39,195 @@
 				</button>
 				<nav class="top_menu">
 					<ul>
-						<li><a href="#">About me</a></li>
-						<li><a href="#">Summary</a></li>
-						<li><a href="#">Portfolio</a></li>
+						<li><a href="#main">Main</a></li>
+						<li><a href="#about">About me</a></li>
+						<li><a href="#summary">Summary</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
+		<div class="top_wrapper">
+		<div class="top_descr">
+			<div class="top_centered">
+				<div class="top_text">
+					<h1>Nazar Melnyk</h1>
+					<p>Front-End developer</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	</header>
-	<section></section>
-	<div class="hidden"></div>
+
+	<section class="s_about bg_light" id="about">
+		<div class="section_header">
+			<h2>About me</h2>
+			<div class="s_descr_wrap">
+				<div class="s_descr">Let me introduce myself</div>
+			</div>
+		</div>
+		<div class="section_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-push-4 fade_down">
+						<h3>Photo</h3>
+						<div class="person">
+							<a href="img/person.png" class="popup"><img src="img/person.png" alt="Person"/></a>
+						</div>
+					</div>
+					<div class="col-md-4 col-md-pull-4 fade_left">
+						<h3>A little bit about me</h3>
+						<p>Hi, I am young Front-End developer, live in Kyiv. Front-End development is a passion for me, so I learn new things every day and use them in my projects.
+						I follow latest technologies like: html5, css3 technologies, CSS preprocessor (Sass - Less), javascript, new methodologies and try to use them in development.</p>
+						<p>My objectives are to work in a challenging environment, learn and apply new tools and technologies to projects and to have a better myself day after day at front end developement.</p>
+					</div>
+					
+					<div class="col-md-4 fade_right personal_last_block">
+						<h3>Personal info</h3>
+						<h2 class="personal_header">Nazar Melnyk</h2>
+						<ul>
+							<li>Birthday: 16 May 1997</li>
+							<li>Phone: +380 686 855 444</li>
+							<li>Foreign Languages: English, German</li>
+							<li>E-mail: <a href="mailto:nazarmelnyk@inbox.ru">nazarmelnyk@inbox.ru</a></li>
+							<li>Web-site: <a href="https://nazar32.github.io/" target="_blank">nazar32.github.io</a></li>
+						</ul>
+						<div class="social_wrap">
+							<ul>
+								<li><a href="mailto:nazarmelnyk@inbox.ru" target="_blank"><i class="fa fa-maxcdn"></i></a></li>
+								<li><a href="https://vk.com/naz32" target="_blank"><i class="fa fa-vk"></i></a></li>
+								<li><a href="mailto:nazar3223@gmail.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="https://github.com/Nazar32" target="_blank"><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="s_summary" id="summary">
+		<div class="section_header">
+			<h2>Summary</h2>
+			<div class="s_descr_wrap">
+				<div class="s_descr">My knoweledge and achievements</div>
+			</div>
+			
+		</div>
+		<div class="section_content">
+			<div class="container">
+				<div class="row">
+					<div class="resume_container">
+						<div class="col-md-6 left">
+							<h3>Work</h3>
+							<div class="resume_icon"><i class="icon-basic-case"></i></div>
+							<div class="resume_item">
+								<div class="year">2015 - till now</div>
+								<div class="resume_description">Freelance <strong>Front-End Developer</strong></div>
+								<p>I have gotten I great experience working on projects with different difficulty. They are: fixed, liquid, adaptive pages and responsive, landing layouts. All of them are cross-browser.</p>
+								<p><span>Tools and technologies</span>: HTML5, CSS3, Bootstrap, JavaScript, Jquery, SAAS-LESS, Adobe Photoshop, SVG, PSD, GIT.</p>
+							</div>
+						</div>		
+						<div class="col-md-6 right">
+							<h3>Study</h3>
+							<div class="resume_icon"><i class="icon-basic-book-pen"></i></div>
+							<div class="resume_item">
+								<div class="year">2014 - till now</div>
+								<div class="resume_description">Software engineering <strong>National Aviation University</strong></div>
+								<p>I study at the National Aviation University. It is one of the best universities of Ukraine. I really appreciate the fact, that my speciality suits me in my wish to be Front-End developer. Moreover I get increased scholarship, as a result of good education achievement.</p>
+								<p><span>Acquired knoweledge</span>: C/C++, C#, Java, Computer architecture, Algorithms and Data Structures, Database Managment Systems, Higher and Discrete Math.</p>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="s_portfolio bg_dark" id="portfolio">
+		<div class="section_header">
+			<h2>Portfolio</h2>
+			<div class="s_descr_wrap">
+				<div class="s_descr">My last works</div>
+			</div>
+		</div>
+
+		<div class="section_content">
+			<div class="container">
+				<div class="row">
+					<div class="filter_div controls">
+						<ul>
+							<li class="filter active" data-filter="all">All works</li>
+							<li class="filter" data-filter=".category-1">Fixed layout</li>
+							<li class="filter" data-filter=".category-2">Liquid layout</li>
+						</ul>
+					</div>
+					<div id="portfolio_grid">
+						<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1">
+							<img src="img/portfolio-images/1.jpg" alt="Alt" />
+							<div class="port_item_cont">
+								<h3>Header of work</h3>
+								<p class="port_item_descr">Description of work</p>
+								<p><a href="https://nazar32.github.io/Creative-Studio" target="_blank">View</a></p>
+								<div class="popup_descr">
+									<a href="#" class="popup_content">Description</a>
+								</div>
+							</div>
+							<div class="hidden">
+								<div class="port_descr">
+									<div class="modal-box-content">
+										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+										<h3>Header of work</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+										<img src="img/portfolio-images/1.jpg" alt="Alt">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-2">
+							<img src="img/portfolio-images/2.jpg" alt="Alt" />
+							<div class="port_item_cont">
+								<h3>Header of work</h3>
+								<p class="port_item_descr">Description of work</p>
+								<p><a href="https://nazar32.github.io/Magazine" target="_blank">View</a></p>
+								<div class="popup_descr">
+									<a href="#" class="popup_content">Description</a>
+								</div>
+							</div>
+							<div class="hidden">
+								<div class="port_descr">
+									<div class="modal-box-content">
+										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+										<h3>Header of work</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+										<img src="img/portfolio-images/2.jpg" alt="Alt">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="main_footer bg_light">
+		<div class="container">
+			<div class="col-md-12">
+				&copy; 2016 Nazar Melnyk
+				<div class="social_wrap">
+				<ul>
+					<li><a href="mailto:nazarmelnyk@inbox.ru" target="_blank"><i class="fa fa-maxcdn"></i></a></li>
+					<li><a href="https://vk.com/naz32" target="_blank"><i class="fa fa-vk"></i></a></li>
+					<li><a href="mailto:nazar3223@gmail.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://github.com/Nazar32" target="_blank"><i class="fa fa-github"></i></a></li>
+				</ul>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
